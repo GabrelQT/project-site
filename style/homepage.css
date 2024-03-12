@@ -1,18 +1,36 @@
 .background {
-  display: block;
-  background-color: rgb(55, 51, 51);
-  margin-top: -30px;
-  margin-right: -25px;
-  margin-left: -25px;
-  height: 150px;
+  background-color: rgb(43, 47, 50);
+}
+.menu {
+  display: flexbox;
+  background-color: rgb(72, 81, 85);
+  width: 40px;
+}
+.pfp {
+  border-radius: 360px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 150px;
+  transition: box-shadow 0.2s;
+}
+.pfp:hover {
+  box-shadow: 0px 0px 10px black;
+}
+.center {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 150px;
+  padding-top: 30px;
+  font-family: "Jetbrains Mono";
+  color: rgb(247, 247, 247);
 }
 .title {
-  font-family: Kanit;
-  font-weight: 400;
-  text-align: left;
-  left: 20px;
+  margin-right: auto;
   font-size: 40px;
-  position: relative;
-  color: white;
-  border-radius: 15px;
+}
+.header {
+  display: flex;
+  background-color: rgb(72, 81, 85);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
